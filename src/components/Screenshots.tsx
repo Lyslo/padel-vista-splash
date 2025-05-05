@@ -21,7 +21,7 @@ const Screenshots = () => {
         
         <div className="max-w-md mx-auto">
           <div className="flex flex-col items-center">
-            <div className="phone-mockup mb-8">
+            <div className="phone-mockup mb-8 rounded-3xl overflow-hidden shadow-xl">
               <img 
                 src={screenshot.url} 
                 alt="App Screenshot" 
