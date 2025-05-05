@@ -31,20 +31,6 @@ const Hero = () => {
                 Download for Android
               </Button>
             </div>
-            
-            <div className="mt-6 flex items-center">
-              <div className="flex -space-x-2 mr-4">
-                {[1, 2, 3, 4].map((i) => (
-                  <div 
-                    key={i}
-                    className="w-8 h-8 rounded-full bg-gray-300 border-2 border-white"
-                  />
-                ))}
-              </div>
-              <p className="text-sm text-gray-600">
-                <span className="font-semibold">10,000+</span> players already using Padelicano
-              </p>
-            </div>
           </div>
           
           <div className="w-full md:w-1/2 relative">

@@ -30,9 +30,11 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
-          <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-padel">
-            Padelicano
-          </span>
+          <img 
+            src="/lovable-uploads/94e2592b-90a0-4992-b273-76bdc371e74b.png" 
+            alt="Padelicano Logo" 
+            className="h-10 md:h-12"
+          />
         </a>
         
         <nav className="hidden md:flex space-x-8">
