@@ -2,31 +2,31 @@
 import { AspectRatio } from "@/components/ui/aspect-ratio";
 
 const Screenshots = () => {
-  // Using one of the uploaded app screenshots
+  // Using newly uploaded app screenshots
   const screenshots = [
     {
-      url: "/lovable-uploads/38029222-4f66-4881-8c26-7d0cc37a0a8f.png",
-      title: "Organize Tournaments",
+      url: "/lovable-uploads/0703b0cc-49ab-4421-b435-505daf6e6aa6.png",
+      title: "Organize tournaments",
       description: "Create and manage padel tournaments with your friends"
     },
     {
-      url: "/lovable-uploads/531ebf9c-8d08-4356-b8be-70cef3a8d494.png",
+      url: "/lovable-uploads/1717ded0-fcd3-4ebe-8d1c-fe475bca756e.png",
       title: "Track Matches",
       description: "Keep track of matches and scores in real-time"
     },
     {
-      url: "/lovable-uploads/1f816fe4-d612-4797-b7f0-9b34b8f41882.png",
-      title: "Create Tournaments",
+      url: "/lovable-uploads/d42afdab-ec1f-46fa-8304-1c8293fca49f.png",
+      title: "Create fast",
       description: "Set up tournaments with custom rules and settings"
     },
     {
-      url: "/lovable-uploads/512e5c07-6e7d-4856-8ad5-4e9eae05ce7d.png",
-      title: "Manage with Ease",
+      url: "/lovable-uploads/e0242df6-2bfa-42de-8e28-a32c74e16e38.png",
+      title: "Manage with ease",
       description: "Simple interface to manage all your padel activities"
     },
     {
-      url: "/lovable-uploads/235cfc94-3a27-47c8-a2ae-68064c9870cf.png",
-      title: "Live Rankings",
+      url: "/lovable-uploads/d7a9b512-7d03-4e7d-ab67-f5ff087e34cb.png",
+      title: "Rank live",
       description: "View real-time player rankings and statistics"
     }
   ];
