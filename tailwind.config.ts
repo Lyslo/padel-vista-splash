@@ -67,6 +67,9 @@ export default {
 					green: '#24B47E',
 					darkGreen: '#166D49',
 					blue: '#4A90E2',
+					darkBlue: '#0A4B99',
+					lightBlue: '#F5F9FF',
+					yellow: '#FFB800',
 					gray: '#F5F7FA',
 					dark: '#333333',
 				}
@@ -104,7 +107,7 @@ export default {
 				'float': 'float 6s ease-in-out infinite',
 			},
 			backgroundImage: {
-				'gradient-padel': 'linear-gradient(135deg, #24B47E 0%, #166D49 100%)',
+				'gradient-padel': 'linear-gradient(135deg, #4A90E2 0%, #0A4B99 100%)',
 			}
 		}
 	},

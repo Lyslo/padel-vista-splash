@@ -31,30 +31,30 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img 
-            src="/lovable-uploads/74161e07-ce9c-4a54-9ced-30ba6dacaeb5.png" 
+            src="/lovable-uploads/94e2592b-90a0-4992-b273-76bdc371e74b.png" 
             alt="Padelicano Logo" 
             className="h-10 md:h-12"
           />
         </a>
         
         <nav className="hidden md:flex space-x-8">
-          <a href="#features" className="text-padel-dark hover:text-padel-green transition-colors">Features</a>
-          <a href="#screenshots" className="text-padel-dark hover:text-padel-green transition-colors">Screenshots</a>
-          <a href="#download" className="text-padel-dark hover:text-padel-green transition-colors">Download</a>
+          <a href="#features" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Features</a>
+          <a href="#screenshots" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Screenshots</a>
+          <a href="#download" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Download</a>
         </nav>
         
         <div className="flex space-x-3">
           <Button 
             size="sm"
             variant="outline"
-            className="hidden sm:inline-flex border-padel-green text-padel-green hover:bg-padel-green hover:text-white"
+            className="hidden sm:inline-flex border-padel-blue text-padel-blue hover:bg-padel-blue hover:text-white"
           >
             Log In
           </Button>
           
           <Button 
             size="sm"
-            className="bg-padel-green hover:bg-padel-darkGreen text-white"
+            className="bg-padel-blue hover:bg-padel-darkBlue text-white"
           >
             Download App
           </Button>

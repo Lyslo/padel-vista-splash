@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 const Cta = () => {
   return (
-    <section id="download" className="py-20 bg-animated text-white">
+    <section id="download" className="py-20 bg-gradient-to-r from-padel-blue to-padel-darkBlue text-white">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -16,7 +16,7 @@ const Cta = () => {
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-10">
             <Button
               size="lg"
-              className="bg-white text-padel-darkGreen hover:bg-gray-100 h-14"
+              className="bg-white text-padel-darkBlue hover:bg-gray-100 h-14"
             >
               <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.5 12.5c0-1.58-.4-2.98-1.04-4.12L21 3h-5.6l-3.35 5.89-1.56-5.88H5l3 11.09 1.58 5.89H15l2.5-7.49z"/>
@@ -27,7 +27,7 @@ const Cta = () => {
             
             <Button
               size="lg"
-              className="bg-white text-padel-blue hover:bg-gray-100 h-14"
+              className="bg-padel-yellow text-padel-darkBlue hover:bg-yellow-500 h-14"
             >
               <svg className="w-6 h-6 mr-2" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M17.77 5.12L12 10.89 6.23 5.12C7.28 4.41 8.58 4 9.99 4c1.41 0 2.72.41 3.78 1.12z"/>
