@@ -20,7 +20,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-padel-darkBlue">
-              The simple app for padel 
+              The Ultimate App for 
               <div className="h-[1.5em] overflow-hidden">
                 <div className="animate-word-rotate">
                   {variants.map((variant, index) => (
@@ -37,7 +37,7 @@ const Hero = () => {
                 </div>
               </div>
               <span className="bg-clip-text text-transparent bg-gradient-padel block">
-                tournaments
+                Padel Enthusiasts
               </span>
             </h1>
             
