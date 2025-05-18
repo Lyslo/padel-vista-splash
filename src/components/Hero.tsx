@@ -1,16 +1,43 @@
 
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const [currentVariant, setCurrentVariant] = useState(0);
+  const variants = ["americano", "mexicano", "mixicano"];
+  
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentVariant((prev) => (prev + 1) % variants.length);
+    }, 2000);
+    
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <section className="pt-28 pb-16 md:pt-36 md:pb-24 bg-padel-lightBlue">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-padel-darkBlue">
-              The Ultimate App for 
+              The simple app for padel 
+              <div className="h-[1.5em] overflow-hidden">
+                <div className="animate-word-rotate">
+                  {variants.map((variant, index) => (
+                    <span 
+                      key={variant} 
+                      className={`bg-clip-text text-transparent bg-gradient-padel block ${
+                        currentVariant === index ? 'opacity-100' : 'opacity-0'
+                      } absolute transition-opacity duration-500`}
+                      aria-hidden={currentVariant !== index}
+                    >
+                      {variant}
+                    </span>
+                  ))}
+                </div>
+              </div>
               <span className="bg-clip-text text-transparent bg-gradient-padel block">
-                Padel Enthusiasts
+                tournaments
               </span>
             </h1>
             

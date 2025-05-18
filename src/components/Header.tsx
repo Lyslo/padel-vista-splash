@@ -43,15 +43,7 @@ const Header = () => {
           <a href="#download" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Download</a>
         </nav>
         
-        <div className="flex space-x-3">
-          <Button 
-            size="sm"
-            variant="outline"
-            className="hidden sm:inline-flex border-padel-blue text-padel-blue hover:bg-padel-blue hover:text-white"
-          >
-            Log In
-          </Button>
-          
+        <div>
           <Button 
             size="sm"
             className="bg-padel-blue hover:bg-padel-darkBlue text-white"
