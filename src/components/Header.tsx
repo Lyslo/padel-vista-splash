@@ -31,7 +31,7 @@ const Header = () => {
       <div className="container mx-auto px-4 sm:px-6 flex justify-between items-center">
         <a href="#" className="flex items-center">
           <img 
-            src="/lovable-uploads/94e2592b-90a0-4992-b273-76bdc371e74b.png" 
+            src="/lovable-uploads/ed736cf4-ff63-43b3-9d14-d676be416304.png" 
             alt="Padelicano Logo" 
             className="h-10 md:h-12"
           />

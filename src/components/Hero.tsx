@@ -34,12 +34,23 @@ const Hero = () => {
           </div>
           
           <div className="w-full md:w-1/2 relative">
-            <div className="phone-mockup animate-float max-w-[300px] mx-auto">
-              <img 
-                src="/lovable-uploads/0703b0cc-49ab-4421-b435-505daf6e6aa6.png" 
-                alt="Padelicano App Screenshot" 
-                className="w-full h-auto"
-              />
+            <div className="iphone-mockup animate-float max-w-[280px] mx-auto">
+              <div className="relative">
+                {/* iPhone notch */}
+                <div className="absolute top-0 left-1/2 transform -translate-x-1/2 w-1/3 h-7 bg-black rounded-b-xl z-20"></div>
+                
+                {/* iPhone frame */}
+                <div className="relative rounded-[40px] overflow-hidden border-[12px] border-gray-800 shadow-2xl">
+                  <img 
+                    src="/lovable-uploads/1717ded0-fcd3-4ebe-8d1c-fe475bca756e.png" 
+                    alt="Padelicano Track Matches Screenshot" 
+                    className="w-full h-auto"
+                  />
+                </div>
+                
+                {/* Home indicator */}
+                <div className="absolute bottom-1 left-1/2 transform -translate-x-1/2 w-1/3 h-1 bg-white rounded-full opacity-80 z-20"></div>
+              </div>
             </div>
             
             <div className="absolute -bottom-6 -right-6 w-36 h-36 bg-padel-yellow rounded-full -z-10 opacity-20"></div>
