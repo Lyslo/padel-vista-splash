@@ -59,7 +59,7 @@ const Hero = () => {
           <div className="w-full md:w-1/2 relative">
             <div className="phone-mockup animate-float max-w-[300px] mx-auto">
               <img 
-                src="/lovable-uploads/044b1d3d-6e22-454e-90dc-2ef3c429702e.png" 
+                src="./lovable-uploads/044b1d3d-6e22-454e-90dc-2ef3c429702e.png" 
                 alt="Padelicano App Screenshot" 
                 className="w-full h-auto"
               />
