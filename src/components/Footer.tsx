@@ -41,9 +41,9 @@ const Footer = () => {
             </p>
             
             <div className="mt-4 md:mt-0">
-              <Link to="/privacy" className="text-gray-400 hover:text-padel-green text-sm">
+              <a href="https://padelicano.com/privacy" className="text-gray-400 hover:text-padel-green text-sm">
                 Privacy Policy
-              </Link>
+              </a>
             </div>
           </div>
         </div>
