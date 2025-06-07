@@ -1,10 +1,9 @@
-
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   const [currentVariant, setCurrentVariant] = useState(0);
-  const variants = ["americano", "mexicano", "mixicano"];
+  const variants = ["americano", "mixicano", "mexicano"];
   
   useEffect(() => {
     const interval = setInterval(() => {
@@ -20,7 +19,7 @@ const Hero = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="w-full md:w-1/2 mb-10 md:mb-0 md:pr-8">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6 leading-tight text-padel-darkBlue">
-              The Ultimate App for 
+              The simple app for padel 
               <div className="h-[1.5em] overflow-hidden">
                 <div className="animate-word-rotate">
                   {variants.map((variant, index) => (
@@ -36,13 +35,10 @@ const Hero = () => {
                   ))}
                 </div>
               </div>
-              <span className="bg-clip-text text-transparent bg-gradient-padel block">
-                Padel Enthusiasts
-              </span>
             </h1>
             
             <p className="text-lg md:text-xl text-padel-darkBlue/80 mb-8 md:pr-12">
-              Connect with players, book courts, track your progress, and become part of the fastest growing padel community.
+              Quickly organize padel tournaments without dealing with subscriptions or complicated setups.
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4">

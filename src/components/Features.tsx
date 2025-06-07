@@ -1,31 +1,30 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 
 const Features = () => {
   const features = [
     {
-      id: "connect",
-      title: "Connect & Play",
-      description: "Find players near you, match with partners of your level, and challenge opponents.",
-      icon: "👥"
-    },
-    {
-      id: "book",
-      title: "Easy Booking",
-      description: "Book courts at your favorite venues with just a few taps.",
-      icon: "📅"
-    },
-    {
-      id: "track",
-      title: "Track Progress",
-      description: "Monitor your performance, see your stats, and improve your game.",
-      icon: "📈"
-    },
-    {
       id: "tournaments",
-      title: "Tournaments",
-      description: "Join local tournaments, climb the rankings, and win prizes.",
+      title: "Tournament Types",
+      description: "Create and manage americano, mexicano, and mixicano tournaments with ease. Perfect for any group size.",
       icon: "🏆"
+    },
+    {
+      id: "smart-benching",
+      title: "Smart Benching",
+      description: "Our intelligent benching system ensures fair play and optimal court time for all players.",
+      icon: "⚖️"
+    },
+    {
+      id: "live-scoring",
+      title: "Live Scoreboard",
+      description: "Real-time score updates as matches progress. Keep everyone informed and engaged.",
+      icon: "📊"
+    },
+    {
+      id: "flexible",
+      title: "Flexible Setup",
+      description: "Adapt to any number of players. Perfect for casual games or organized tournaments.",
+      icon: "🔄"
     }
   ];
 
@@ -34,10 +33,10 @@ const Features = () => {
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-padel-darkBlue">
-            App Features
+            Tournament Management Made Simple
           </h2>
           <p className="text-lg text-padel-darkBlue/70 max-w-2xl mx-auto">
-            Designed by padel players, for padel players. Everything you need to enjoy the sport.
+            The perfect companion for organizing and managing padel tournaments of any size.
           </p>
         </div>
 
