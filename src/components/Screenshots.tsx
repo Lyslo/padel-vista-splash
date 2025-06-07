@@ -6,27 +6,27 @@ const Screenshots = () => {
   
   const screenshots = [
     {
-      url: "./lovable-uploads/0703b0cc-49ab-4421-b435-505daf6e6aa6.png",
+      url: "/lovable-uploads/0703b0cc-49ab-4421-b435-505daf6e6aa6.png",
       title: "Tournament Creation",
       description: "Create americano, mexicano, or mixicano tournaments in seconds"
     },
     {
-      url: "./lovable-uploads/1717ded0-fcd3-4ebe-8d1c-fe475bca756e.png",
+      url: "/lovable-uploads/1717ded0-fcd3-4ebe-8d1c-fe475bca756e.png",
       title: "Live Scoring",
       description: "Update scores in real-time and keep everyone in the loop"
     },
     {
-      url: "./lovable-uploads/d42afdab-ec1f-46fa-8304-1c8293fca49f.png",
+      url: "/lovable-uploads/d42afdab-ec1f-46fa-8304-1c8293fca49f.png",
       title: "Smart Benching",
       description: "Our intelligent system ensures fair play for all"
     },
     {
-      url: "./lovable-uploads/e0242df6-2bfa-42de-8e28-a32c74e16e38.png",
+      url: "/lovable-uploads/e0242df6-2bfa-42de-8e28-a32c74e16e38.png",
       title: "Player Management",
       description: "Handle any number of players with ease"
     },
     {
-      url: "./lovable-uploads/d7a9b512-7d03-4e7d-ab67-f5ff087e34cb.png",
+      url: "/lovable-uploads/d7a9b512-7d03-4e7d-ab67-f5ff087e34cb.png",
       title: "Live Rankings",
       description: "Watch the tournament standings update in real-time"
     }
