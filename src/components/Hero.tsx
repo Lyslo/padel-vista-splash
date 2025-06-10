@@ -44,8 +44,11 @@ const Hero = () => {
             <div className="flex flex-col sm:flex-row gap-4">
               <Button
                 className="w-full sm:w-auto h-12 px-8 bg-padel-blue hover:bg-padel-darkBlue text-white text-lg"
+                asChild
               >
-                Download for iOS
+                <a href="https://apps.apple.com/no/app/padelicano/id6745820501" target="_blank" rel="noopener noreferrer">
+                  Download for iOS
+                </a>
               </Button>
               
               <Button
