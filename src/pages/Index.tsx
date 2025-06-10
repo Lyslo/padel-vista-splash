@@ -3,10 +3,12 @@ import Hero from "@/components/Hero";
 import Features from "@/components/Features";
 import Screenshots from "@/components/Screenshots";
 import Footer from "@/components/Footer";
+import SEO from "@/components/SEO";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <SEO />
       <Header />
       <section id="hero">
         <Hero />
