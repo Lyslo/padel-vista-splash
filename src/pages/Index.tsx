@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -9,10 +8,18 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-white">
       <Header />
-      <Hero />
-      <Features />
-      <Screenshots />
-      <Footer />
+      <section id="hero">
+        <Hero />
+      </section>
+      <section id="features">
+        <Features />
+      </section>
+      <section id="screenshots">
+        <Screenshots />
+      </section>
+      <section id="contact">
+        <Footer />
+      </section>
     </div>
   );
 };

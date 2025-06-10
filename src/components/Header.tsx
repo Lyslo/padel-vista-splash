@@ -20,6 +20,20 @@ const Header = () => {
     };
   }, []);
 
+  const scrollToSection = (sectionId: string) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      const headerOffset = 80; // Adjust this value based on your header height
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth'
+      });
+    }
+  };
+
   return (
     <header 
       className={`fixed top-0 left-0 w-full z-50 transition-all duration-300 ${
@@ -38,9 +52,24 @@ const Header = () => {
         </Link>
         
         <nav className="hidden md:flex space-x-8">
-          <Link to="/#features" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Features</Link>
-          <Link to="/#screenshots" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Screenshots</Link>
-          <Link to="/#download" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Download</Link>
+          <button 
+            onClick={() => scrollToSection('features')} 
+            className="text-padel-darkBlue hover:text-padel-blue transition-colors"
+          >
+            Features
+          </button>
+          <button 
+            onClick={() => scrollToSection('screenshots')} 
+            className="text-padel-darkBlue hover:text-padel-blue transition-colors"
+          >
+            Screenshots
+          </button>
+          <button 
+            onClick={() => scrollToSection('contact')} 
+            className="text-padel-darkBlue hover:text-padel-blue transition-colors"
+          >
+            Contact
+          </button>
           <Link to="/privacy" className="text-padel-darkBlue hover:text-padel-blue transition-colors">Privacy</Link>
         </nav>
         
@@ -48,6 +77,7 @@ const Header = () => {
           <Button 
             size="sm"
             className="bg-padel-blue hover:bg-padel-darkBlue text-white"
+            onClick={() => scrollToSection('hero')}
           >
             Download App
           </Button>
